@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,102 @@
   to {
     transform: rotate(360deg);
   }
+} */
+#bodyi{
+  height: 120%;
+  background-image:url("bg_1.jpg.webp") ;
+  width: auto;
+  /* height: 100vh; */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+#bodyabout{
+  /* height: 100%; */
+  background-image:url("bg_1.jpg.webp") ;
+  width: auto;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 0px;
+  display: grid;
+
+}
+.navbar1 
+{
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
+  
+  /* width: auto;
+  height: auto; */
+  
+}
+.kkf1 
+{
+  /* margin: 0px 0px 0px 0px; */
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  
+}
+.kkf2 
+{
+  
+  text-align: center;
+ 
+}
+#cardhoverr
+{
+  background-color: whitesmoke;
+  width:140px;
+  border-radius:4px; 
+  margin-right: 15px;
+  margin-bottom: 15px;
+
+}
+#cardhoverr:hover
+{
+  background-color: #ff414d;
+  color: white;
+}
+#cardhover1
+{
+  color: #ff414d;
+}
+
+#cardhoverr:hover
+#cardhover1
+{
+  color: white;
+}
+
+#cardhover2
+{
+  color: black;
+}
+
+#cardhoverr:hover
+#cardhover2
+{
+  color: white;
+}
+
+#cardhover3
+{
+  color: #ff414d;
+}
+#cardhoverr:hover
+#cardhover3
+{
+  color: white;
+}
+#cardhover4
+{
+  color: black;
+}
+#cardhoverr:hover
+#cardhover4
+{
+  color: white;
 }
